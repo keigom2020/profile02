@@ -1,0 +1,28 @@
+{
+  "default": {
+    "title": "KM",
+    "description": "デフォルトディスクリプション！",
+    "site_name": "KM｜KM",
+    "url": "/",
+    "twitter_title": "KM | twitter",
+    "twitter_description": "Change Working Dream Making",
+    "twitter_img": "/img/tw_img.png"
+  },
+  "top": {
+    "title": "top | KM Profile site",
+    "description": "ポートフォリオサイトです。",
+    "keywords": "ポートフォリオ",
+    "site_name": "KM｜KM Profile site",
+    "url": "/index.html"
+  },
+  "recruit": {
+    "title": "recruit | KM Profile site",
+    "description": "recruitトップ！",
+    "keywords": "ポートフォリオ",
+    "site_name": "KM｜KM Profile site",
+    "url": "/recruit/index.html",
+    "twitter_title": "KM Profile site | twitter",
+    "twitter_description": "Change Working Dream Making",
+    "twitter_img": "/img/tw_img.png"
+  }
+}

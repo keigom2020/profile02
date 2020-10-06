@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
+
+@import "mixin";
+
+:root {
+  --roboto: "Roboto", sans-serif;
+  --gugi: "Gugi", cursive;
+  --sofia: "Sofia", cursive;
+  --big: "Big Shoulders Text", cursive;
+  --PT: "PT Serif", cursive;
+  --Maru: "Kosugi Maru", cursive;
+}
+
+* {
+  font-family: 
+  // 'Roboto', sans-serif,
+  'Noto Serif JP', serif;
+}
+
+h2 {
+  font-family: var(--PT)!important;
+}
+
+h3 {
+  font-family: var(--roboto)!important;
+}
+
+h5 {
+  color: #20b2aa;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  width: 100%;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,ul {
+  list-style-type: none;
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+
+$content-width: 1200px;
+
+$main-color: #20b2aa;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul, li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  width: 100%;
+}
+
+.forPc {
+  display: block;
+}
+.forSp {
+  display: none;
+}
+
+.header,
+.footer {
+  width: 100%;
+  min-width: $content-width;
+}
+
+section {
+  width: 100%;
+  min-width: $content-width;
+}
+
+.card {
+  @include card();
+}
+
+.btn {
+  @include btn();
+}
+
+.tag {
+  @include tag();
+}
+
+@media (max-width: 767px) {
+  .forPc {
+    display: none;
+  }
+  .forSp {
+    display: block;
+  }
+  .header,
+  .footer {
+    width: 100%;
+    min-width: 100%;
+  }
+  section {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+
+
